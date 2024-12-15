@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section with Yellow Rectangle</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Granite&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <section class="hero">
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="Logo" class="logo">
+                </a>
+                <button class="menu-btn" onclick="toggleMobileMenu()">☰</button> <!-- Menu button -->
+                <div class="nav-wrapper">
+                    <div class="rectangle"></div> <!-- Yellow Rectangle -->
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#invest">Why Investing In Romania</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#legal">Romania's Legal and Fiscal Framework</a></li>
+                        <li><a href="#registration">Registration Process</a></li>
+                        <li><a href="#work">Why Work With Us?</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <!-- Mobile Navigation Menu -->
+        <div id="mobileNav" class="mobile-nav">
+            <ul>
+                <li><a href="#home" onclick="toggleMobileMenu()">Home</a></li>
+                <li><a href="#invest" onclick="toggleMobileMenu()">Why Investing In Romania</a></li>
+                <li><a href="#services" onclick="toggleMobileMenu()">Our Services</a></li>
+                <li><a href="#legal" onclick="toggleMobileMenu()">Romania's Legal and Fiscal Framework</a></li>
+                <li><a href="#registration" onclick="toggleMobileMenu()">Registration Process</a></li>
+                <li><a href="#work" onclick="toggleMobileMenu()">Why Work With Us?</a></li>
+                <li><a href="#contact" onclick="toggleMobileMenu()">Contact</a></li>
+            </ul>
+        </div>
+        <div id="overlay" class="overlay" onclick="toggleMobileMenu()"></div> <!-- Overlay -->
+    
+        <div class="hero-content">
+            <h1>Company Registration in Romania for<br> Foreign Nationals</h1>
+            <p>Your journey starts here.</p>
+        </div>
+    </section>
+    
+
+
+    <section class="why-romania" id="why-romania">
+        <div class="content-wrapper">
+            <h2>Why Romania? Key Advantages for Foreign Investors</h2>
+            <p class="overview">
+                Romania offers a robust blend of economic stability, attractive tax benefits, and a thriving business environment, making it one of Europe’s prime locations for foreign investors.
+            </p>
+            <ul class="advantages">
+                <li>
+                    <strong><span class="strategic-text">Strategic</span> EU Location with Eastern Access:</strong>
+
+                    Romania bridges Western and Eastern Europe, allowing companies to operate seamlessly across both markets, benefiting from the EU’s free-trade zone.
+                </li>
+                <li>
+                    <strong><span class="strategic-text">Competitive</span> Corporate Taxation:</strong> 
+                    Romania’s 16% flat corporate tax rate is one of the lowest in the EU, encouraging foreign investment. Additional tax incentives are available for R&D activities, IT companies, and industrial activities.
+                </li>
+                <li>
+                    <strong><span class="strategic-text">Extensive</span> Skilled Workforce:</strong> 
+                    Romania boasts a highly educated and multilingual workforce, particularly in IT, engineering, and manufacturing sectors, with competitive labor costs compared to Western Europe.
+                </li>
+                <li>
+                    <strong><span class="strategic-text">Dynamic</span> Economy and Growing Consumer Market:</strong> 
+                    With sustained GDP growth, Romania has one of the fastest-growing economies in Europe, providing a favorable market for both B2B and B2C companies.
+                </li>
+                <li>
+                    <strong><span class="strategic-text">EU</span>Funding and Business Grants:</strong> 
+                    Access to various European Union grants for sectors like tech, agriculture, green energy, and manufacturing, supporting the growth of innovative and sustainable businesses.
+                </li>
+                <li>
+                    <strong><span class="strategic-text">Double</span> Tax Treaties:</strong> 
+                    Romania has double tax treaties with over 80 countries, allowing foreign business owners to optimize their tax obligations by avoiding double taxation.
+                </li>
+                <li>
+                    <strong><span class="strategic-text">Attractive</span> Real Estate Opportunities:</strong> 
+                    With a burgeoning real estate market, investors find affordable options for offices, logistics centers, and production facilities compared to other European countries.
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+
+
+    <!-- Add the overlapping image here 
+    <div class="overlap-image">
+        <img src="viol.png.webp" alt="Decorative image">
+    </div>-->
+
+
+
+    <section class="our-services">
+        <div class="container">
+            <!-- Left Column (Heading and Paragraph) -->
+            <div class="left-column">
+                <h2>Our Services</h2>
+                <p>We offer a range of high-quality services tailored to your needs. Discover how we can help you achieve your business goals.</p>
+            </div>
+            
+            <!-- Right Column (Cards) -->
+            <div class="right-column">
+                <div class="service-card">
+                    <img src="ser1.jpg" alt="Service 1">
+                    <div class="card-title">Company Formation & Registration</div>
+                </div>
+                <div class="service-card">
+                    <img src="ser2.jpg" alt="Service 2">
+                    <div class="card-title">Service 2</div>
+                </div>
+                <div class="service-card">
+                    <img src="ser3.jpg" alt="Service 3">
+                    <div class="card-title">Service 3</div>
+                </div>
+                <div class="service-card">
+                    <img src="ser4.jpg" alt="Service 4">
+                    <div class="card-title">Service 4</div>
+                </div>
+                <div class="service-card">
+                    <img src="ser5.jpg" alt="Service 5">
+                    <div class="card-title">Service 5</div>
+                </div>
+                <div class="service-card">
+                    <img src="service6.jpg" alt="Service 6">
+                    <div class="card-title">Service 6</div>
+                </div>
+                <div class="service-card">
+                    <img src="service7.jpg" alt="Service 7">
+                    <div class="card-title">Service 7</div>
+                </div>
+                <div class="service-card">
+                    <img src="service8.jpg" alt="Service 8">
+                    <div class="card-title">Service 8</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    
+    <h2 class="lf-heading" style="padding-left: 20px; padding-right: 20px;"><span style="font-size: 2.7rem; " class=" strategic-text">Legal and Fiscal </span> Landscape in Romania</h2>
+    <hr class="section-hr" style="margin-bottom: 20px;">
+    <p style="text-align: center;" >Overview of Romanian Fiscality for Foreign-Owned Businesses</p>
+    <section class="legal-fiscal-landscape-section" style="   background-image: url('pngegg.png'); /* Replace with your image path */">
+        <div class="lf-container" >
+           
+      
+    
+            <!-- Corporate Income Tax -->
+            <div class="lf-icon-section">
+                <i class="fas fa-coins lf-icon"></i>
+                <div class="lf-content">
+                    <h3>Corporate Income Tax (CIT)</h3>
+                    <p>Romania applies a flat 16% corporate income tax (CIT) rate, making it one of the most competitive in the EU. Certain small businesses may qualify for a reduced rate under the micro-enterprise tax regime, applicable to companies with turnover below EUR 1 million.</p>
+                </div>
+            </div>
+    
+            <!-- Micro-Enterprise Tax System -->
+            <div class="lf-icon-section">
+                <i class="fas fa-chart-line lf-icon"></i>
+                <div class="lf-content">
+                    <h3>Micro-Enterprise Tax System</h3>
+                    <p>Micro-enterprises, typically with a turnover below EUR 1 million, are taxed at rates as low as 1% (if they have employees) or 3% (if they don’t have employees). This system provides substantial benefits for smaller companies starting operations in Romania.</p>
+                </div>
+            </div>
+    
+            <!-- Value-Added Tax -->
+            <div class="lf-icon-section">
+                <i class="fas fa-receipt lf-icon"></i>
+                <div class="lf-content">
+                    <h3>Value-Added Tax (VAT)</h3>
+                    <p>The standard VAT rate is 19%, with reduced rates of 9% for food and medicines, and 5% for select categories like housing. Foreign companies can register for VAT if their turnover exceeds EUR 88,500 or if engaging in EU transactions.</p>
+                </div>
+            </div>
+    
+            <!-- Withholding Tax -->
+            <div class="lf-icon-section">
+                <i class="fas fa-percent lf-icon"></i>
+                <div class="lf-content">
+                    <h3>Withholding Tax</h3>
+                    <p>Romania applies a 5% withholding tax on dividends paid to foreign shareholders. However, this can be reduced under EU rules or eliminated if the receiving entity is based in a country with a tax treaty with Romania.</p>
+                </div>
+            </div>
+    
+            <!-- Tax Incentives -->
+            <div class="lf-icon-section">
+                <i class="fas fa-lightbulb lf-icon"></i>
+                <div class="lf-content">
+                    <h3>Tax Incentives for Innovation and R&D</h3>
+                    <p>Romania provides tax incentives for companies engaged in research and development, including additional deductions and exemptions, aimed at fostering growth in the tech and innovation sectors.</p>
+                </div>
+            </div>
+    
+            <!-- Social Contributions -->
+            <div class="lf-icon-section">
+                <i class="fas fa-hand-holding-usd lf-icon"></i>
+                <div class="lf-content">
+                    <h3>Social Contributions & Labor Taxes</h3>
+                    <p>Employers are required to make social security contributions on behalf of employees, totaling around 2.25%. Additionally, a 10% income tax is applied to employees’ salaries.</p>
+                </div>
+            </div>
+    
+            <!-- Double Tax Treaties -->
+            <div class="lf-icon-section">
+                <i class="fas fa-globe lf-icon"></i>
+                <div class="lf-content">
+                    <h3>Double Tax Treaties & Avoidance</h3>
+                    <p>Romania has tax treaties with over 80 countries to prevent double taxation, offering favorable conditions for international investors.</p>
+                </div>
+            </div>
+    
+            <div class="legal-fiscal-landscape-section" >
+                <h3 class="lf-heading">Legal Requirements and Compliance Considerations</h3>
+            
+                <div class="lf-container" >
+                    <!-- Left content: Icon Sections -->
+                    <div class="lf-content-wrapper" >
+                        <!-- Corporate Governance -->
+                        <div class="lf-icon-section">
+                            <i class="fas fa-building lf-icon"></i>
+                            <div class="lf-content">
+                                <h3>Corporate Governance</h3>
+                                <p>Romanian companies must comply with specific governance structures. For example, an SRL requires at least one director and shareholder, who can be the same individual.</p>
+                            </div>
+                        </div>
+            
+                        <!-- Labor Law -->
+                        <div class="lf-icon-section">
+                            <i class="fas fa-briefcase lf-icon"></i>
+                            <div class="lf-content">
+                                <h3>Labor Law</h3>
+                                <p>Romania has a comprehensive labor law system covering employment contracts, minimum wage, working hours, and employee benefits. Our team can help ensure your contracts are compliant with local regulations.</p>
+                            </div>
+                        </div>
+            
+                        <!-- Data Protection -->
+                        <div class="lf-icon-section">
+                            <i class="fas fa-lock lf-icon"></i>
+                            <div class="lf-content">
+                                <h3>Data Protection (GDPR Compliance)</h3>
+                                <p>Companies operating in Romania must comply with GDPR regulations to protect personal data. We provide GDPR guidance to ensure your business meets EU standards.</p>
+                            </div>
+                        </div>
+            
+                        <!-- Accounting & Financial Reporting -->
+                        <div class="lf-icon-section">
+                            <i class="fas fa-calculator lf-icon"></i>
+                            <div class="lf-content">
+                                <h3>Accounting & Financial Reporting</h3>
+                                <p>All companies are required to file annual financial statements and maintain proper records in compliance with Romanian accounting standards. Our accounting team provides full support to keep your company compliant.</p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Right-side Image -->
+                    <div class="lf-image-wrapper" >
+                        <img src="l-modified.png" alt="Legal Compliance Image">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+      
+      
+      
+      
+      
+      
+
+
+
+<script src="scripts.js"></script>
+</body>
+</html>
